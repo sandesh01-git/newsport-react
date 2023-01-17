@@ -1,0 +1,111 @@
+img{
+    width:100%;
+    height:auto;
+    transform: scale(1);
+    transform-origin: center;
+    transition: all .5s ease-in-out;
+}
+
+
+img:hover {
+  transform: scale(0.9);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newsCard{
+    margin:1rem;
+   
+    max-width: 1000%;
+    max-height: 30rem;
+    min-height: 30rem;
+  
+  
+  padding: 5px;
+
+  
+}
+.card-title h1{
+ font-size: 16px;
+
+ margin-top: 1rem;
+
+ overflow: hidden;
+cursor: pointer;
+margin-bottom: 1rem;
+}
+
+.card-title h1:hover{
+  font-size: 16px;
+/*  
+  margin-bottom: 1rem; */
+ 
+  overflow: hidden;
+  color:blue;
+ 
+ }
+
+.text-container p{
+    width:auto;
+
+    text-align: justify;
+    text-justify: inter-word;
+  line-height: 1.5rem;
+    /* white-space: nowrap;
+    overflow: hidden; */
+    cursor: pointer;
+
+}
+
+
+
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+
+  }
+
+.card-footer a{
+    color: brown;
+    padding-left: 10rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.card-footer a:hover{
+  color: red;
+  padding-left: 10rem;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+
+.newsbody{
+    margin-top: 5rem;
+}
+.pagesreadmore .header-text h3{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 900;
+  width: 500px;
+  margin: auto;
+}
+
+.pagesreadmore .image-container{
+width: 500px;
+margin: auto;
+}
+
+
+.pagesreadmore .discription p{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  width: 500px;
+  margin: auto;
+
+}
